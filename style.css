@@ -1,0 +1,49 @@
+body {
+    background: color #23d38f;
+         display: flex;
+     /* centralizar na horizontal */
+    justify-content:center;
+    /* centralizar na vertical */
+    align-items: center;
+    /* define altura da pagina */
+    height: 100vh
+}
+    /* o ponto referencia um class */
+.cartaõ {
+    /* cor de fundo */
+    background-color: #c71717
+    /* espaçamento interno */
+    padding:#27f527 20px;
+    /* cantos arredondados */
+    border-radius: 10px;
+   
+    /* alinhamento de texto */
+    text-align: center;
+}
+button {
+    background-color: #cc1010;
+    /* cor do texto */
+    color: white;
+    border-radius: 10px;
+    /* 10px é em cima e em baixo e 20px é na esquerda e direita */
+    padding: 10px 20px;
+    /* sem borda */
+     border: none;
+    /* cria um ponteiro de mouse */
+    cursor: pointer;
+}
+/* quando o usuário passar o mouse sobre o botão */
+button:hover{
+    background-color: #27f527
+}
+/* referencia a class imagem */
+.imagem {
+    /* largura da imagem */
+    width: 120px;
+    /* altura da imagem */
+    height: 120px;
+    /* deixa a imagem circular */
+    border-radius: 50%;
+    /* adiciona borda colorida de 3px de expessura e solida */
+    border: 3px solid #6309ca;
+}
